@@ -1,0 +1,26 @@
+1. Используя команду cat в терминале операционной системы Linux, создать
+два файла Домашние животные (заполнив файл собаками, кошками,
+хомяками) и Вьючные животными заполнив файл Лошадьми, верблюдами и
+ослы), а затем объединить их. Просмотреть содержимое созданного файла.
+Переименовать файл, дав ему новое имя (Друзья человека).
+
+mkdir final_spec
+cd final_spec
+
+cat > home_animals
+dogs
+cats
+hamsters
+
+cat > pack_animals
+horses
+camels
+donkeys
+
+cat home_animals pack_animals > animals
+
+cat animals
+
+cat animals > man_friends 
+
+cat man_friends 
